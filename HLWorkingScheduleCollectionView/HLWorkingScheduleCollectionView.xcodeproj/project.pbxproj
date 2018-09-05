@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E7633862068ED6000C0D113 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7633852068ED6000C0D113 /* AppDelegate.m */; };
+		4E7633892068ED6000C0D113 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7633882068ED6000C0D113 /* ViewController.m */; };
+		4E76338C2068ED6000C0D113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E76338A2068ED6000C0D113 /* Main.storyboard */; };
+		4E76338E2068ED6000C0D113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E76338D2068ED6000C0D113 /* Assets.xcassets */; };
+		4E7633912068ED6000C0D113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E76338F2068ED6000C0D113 /* LaunchScreen.storyboard */; };
+		4E7633942068ED6000C0D113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7633932068ED6000C0D113 /* main.m */; };
+		4E76339E2068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76339D2068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.m */; };
+		4E7633A92068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7633A82068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.m */; };
+		4E7633B82068F08B00C0D113 /* HLScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7633B72068F08B00C0D113 /* HLScrollerView.m */; };
+		4EC8D9552069D649009600D1 /* HLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8D9542069D649009600D1 /* HLCollectionViewCell.m */; };
+		4EC8D9582069ED4E009600D1 /* HLDataCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8D9572069ED4E009600D1 /* HLDataCollectionViewCell.m */; };
+		F684C2479146BB9F36346FA8 /* libPods-HLWorkingScheduleCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5DABC83CA9C65D16687D1E /* libPods-HLWorkingScheduleCollectionView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E76339A2068ED6000C0D113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7633792068ED6000C0D113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7633802068ED6000C0D113;
+			remoteInfo = HLWorkingScheduleCollectionView;
+		};
+		4E7633A52068ED6000C0D113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7633792068ED6000C0D113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7633802068ED6000C0D113;
+			remoteInfo = HLWorkingScheduleCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E7633812068ED6000C0D113 /* HLWorkingScheduleCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLWorkingScheduleCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7633842068ED6000C0D113 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E7633852068ED6000C0D113 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E7633872068ED6000C0D113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E7633882068ED6000C0D113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E76338B2068ED6000C0D113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E76338D2068ED6000C0D113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7633902068ED6000C0D113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E7633922068ED6000C0D113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7633932068ED6000C0D113 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E7633992068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLWorkingScheduleCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E76339D2068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLWorkingScheduleCollectionViewTests.m; sourceTree = "<group>"; };
+		4E76339F2068ED6000C0D113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7633A42068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLWorkingScheduleCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7633A82068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLWorkingScheduleCollectionViewUITests.m; sourceTree = "<group>"; };
+		4E7633AA2068ED6000C0D113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7633B62068F08B00C0D113 /* HLScrollerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLScrollerView.h; sourceTree = "<group>"; };
+		4E7633B72068F08B00C0D113 /* HLScrollerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLScrollerView.m; sourceTree = "<group>"; };
+		4EC8D9532069D649009600D1 /* HLCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCollectionViewCell.h; sourceTree = "<group>"; };
+		4EC8D9542069D649009600D1 /* HLCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCollectionViewCell.m; sourceTree = "<group>"; };
+		4EC8D9562069ED4E009600D1 /* HLDataCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLDataCollectionViewCell.h; sourceTree = "<group>"; };
+		4EC8D9572069ED4E009600D1 /* HLDataCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLDataCollectionViewCell.m; sourceTree = "<group>"; };
+		5E5DABC83CA9C65D16687D1E /* libPods-HLWorkingScheduleCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLWorkingScheduleCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93516124CD9AF79014ADC180 /* Pods-HLWorkingScheduleCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLWorkingScheduleCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLWorkingScheduleCollectionView/Pods-HLWorkingScheduleCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB8C11A14D8814E7345BA45 /* Pods-HLWorkingScheduleCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLWorkingScheduleCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLWorkingScheduleCollectionView/Pods-HLWorkingScheduleCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E76337E2068ED6000C0D113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F684C2479146BB9F36346FA8 /* libPods-HLWorkingScheduleCollectionView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7633962068ED6000C0D113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7633A12068ED6000C0D113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E7633782068ED6000C0D113 = {
+			isa = PBXGroup;
+			children = (
+				4E7633832068ED6000C0D113 /* HLWorkingScheduleCollectionView */,
+				4E76339C2068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests */,
+				4E7633A72068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests */,
+				4E7633822068ED6000C0D113 /* Products */,
+				BDB0FDCBE2C63DF8BB29A2BC /* Pods */,
+				B2C18A166C6C87F95F96FC96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7633822068ED6000C0D113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7633812068ED6000C0D113 /* HLWorkingScheduleCollectionView.app */,
+				4E7633992068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.xctest */,
+				4E7633A42068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7633832068ED6000C0D113 /* HLWorkingScheduleCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4E7633842068ED6000C0D113 /* AppDelegate.h */,
+				4E7633852068ED6000C0D113 /* AppDelegate.m */,
+				4E7633872068ED6000C0D113 /* ViewController.h */,
+				4E7633882068ED6000C0D113 /* ViewController.m */,
+				4E7633B62068F08B00C0D113 /* HLScrollerView.h */,
+				4E7633B72068F08B00C0D113 /* HLScrollerView.m */,
+				4EC8D9532069D649009600D1 /* HLCollectionViewCell.h */,
+				4EC8D9542069D649009600D1 /* HLCollectionViewCell.m */,
+				4EC8D9562069ED4E009600D1 /* HLDataCollectionViewCell.h */,
+				4EC8D9572069ED4E009600D1 /* HLDataCollectionViewCell.m */,
+				4E76338A2068ED6000C0D113 /* Main.storyboard */,
+				4E76338D2068ED6000C0D113 /* Assets.xcassets */,
+				4E76338F2068ED6000C0D113 /* LaunchScreen.storyboard */,
+				4E7633922068ED6000C0D113 /* Info.plist */,
+				4E7633932068ED6000C0D113 /* main.m */,
+			);
+			path = HLWorkingScheduleCollectionView;
+			sourceTree = "<group>";
+		};
+		4E76339C2068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E76339D2068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.m */,
+				4E76339F2068ED6000C0D113 /* Info.plist */,
+			);
+			path = HLWorkingScheduleCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		4E7633A72068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E7633A82068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.m */,
+				4E7633AA2068ED6000C0D113 /* Info.plist */,
+			);
+			path = HLWorkingScheduleCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		B2C18A166C6C87F95F96FC96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5DABC83CA9C65D16687D1E /* libPods-HLWorkingScheduleCollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB0FDCBE2C63DF8BB29A2BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93516124CD9AF79014ADC180 /* Pods-HLWorkingScheduleCollectionView.debug.xcconfig */,
+				ABB8C11A14D8814E7345BA45 /* Pods-HLWorkingScheduleCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7633802068ED6000C0D113 /* HLWorkingScheduleCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7633AD2068ED6000C0D113 /* Build configuration list for PBXNativeTarget "HLWorkingScheduleCollectionView" */;
+			buildPhases = (
+				3E72C7CB24B204C69F945795 /* [CP] Check Pods Manifest.lock */,
+				4E76337D2068ED6000C0D113 /* Sources */,
+				4E76337E2068ED6000C0D113 /* Frameworks */,
+				4E76337F2068ED6000C0D113 /* Resources */,
+				245624DA1A09F337B13959EE /* [CP] Embed Pods Frameworks */,
+				4F42F86551712FB320316E1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLWorkingScheduleCollectionView;
+			productName = HLWorkingScheduleCollectionView;
+			productReference = 4E7633812068ED6000C0D113 /* HLWorkingScheduleCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E7633982068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7633B02068ED6000C0D113 /* Build configuration list for PBXNativeTarget "HLWorkingScheduleCollectionViewTests" */;
+			buildPhases = (
+				4E7633952068ED6000C0D113 /* Sources */,
+				4E7633962068ED6000C0D113 /* Frameworks */,
+				4E7633972068ED6000C0D113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E76339B2068ED6000C0D113 /* PBXTargetDependency */,
+			);
+			name = HLWorkingScheduleCollectionViewTests;
+			productName = HLWorkingScheduleCollectionViewTests;
+			productReference = 4E7633992068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E7633A32068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7633B32068ED6000C0D113 /* Build configuration list for PBXNativeTarget "HLWorkingScheduleCollectionViewUITests" */;
+			buildPhases = (
+				4E7633A02068ED6000C0D113 /* Sources */,
+				4E7633A12068ED6000C0D113 /* Frameworks */,
+				4E7633A22068ED6000C0D113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E7633A62068ED6000C0D113 /* PBXTargetDependency */,
+			);
+			name = HLWorkingScheduleCollectionViewUITests;
+			productName = HLWorkingScheduleCollectionViewUITests;
+			productReference = 4E7633A42068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E7633792068ED6000C0D113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HLRen;
+				TargetAttributes = {
+					4E7633802068ED6000C0D113 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4E7633982068ED6000C0D113 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E7633802068ED6000C0D113;
+					};
+					4E7633A32068ED6000C0D113 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E7633802068ED6000C0D113;
+					};
+				};
+			};
+			buildConfigurationList = 4E76337C2068ED6000C0D113 /* Build configuration list for PBXProject "HLWorkingScheduleCollectionView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E7633782068ED6000C0D113;
+			productRefGroup = 4E7633822068ED6000C0D113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7633802068ED6000C0D113 /* HLWorkingScheduleCollectionView */,
+				4E7633982068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests */,
+				4E7633A32068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E76337F2068ED6000C0D113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7633912068ED6000C0D113 /* LaunchScreen.storyboard in Resources */,
+				4E76338E2068ED6000C0D113 /* Assets.xcassets in Resources */,
+				4E76338C2068ED6000C0D113 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7633972068ED6000C0D113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7633A22068ED6000C0D113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		245624DA1A09F337B13959EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLWorkingScheduleCollectionView/Pods-HLWorkingScheduleCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E72C7CB24B204C69F945795 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F42F86551712FB320316E1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLWorkingScheduleCollectionView/Pods-HLWorkingScheduleCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E76337D2068ED6000C0D113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC8D9582069ED4E009600D1 /* HLDataCollectionViewCell.m in Sources */,
+				4E7633B82068F08B00C0D113 /* HLScrollerView.m in Sources */,
+				4E7633892068ED6000C0D113 /* ViewController.m in Sources */,
+				4E7633942068ED6000C0D113 /* main.m in Sources */,
+				4E7633862068ED6000C0D113 /* AppDelegate.m in Sources */,
+				4EC8D9552069D649009600D1 /* HLCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7633952068ED6000C0D113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E76339E2068ED6000C0D113 /* HLWorkingScheduleCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7633A02068ED6000C0D113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7633A92068ED6000C0D113 /* HLWorkingScheduleCollectionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E76339B2068ED6000C0D113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7633802068ED6000C0D113 /* HLWorkingScheduleCollectionView */;
+			targetProxy = 4E76339A2068ED6000C0D113 /* PBXContainerItemProxy */;
+		};
+		4E7633A62068ED6000C0D113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7633802068ED6000C0D113 /* HLWorkingScheduleCollectionView */;
+			targetProxy = 4E7633A52068ED6000C0D113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E76338A2068ED6000C0D113 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E76338B2068ED6000C0D113 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E76338F2068ED6000C0D113 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7633902068ED6000C0D113 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E7633AB2068ED6000C0D113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E7633AC2068ED6000C0D113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7633AE2068ED6000C0D113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93516124CD9AF79014ADC180 /* Pods-HLWorkingScheduleCollectionView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P5FN2G9KC;
+				INFOPLIST_FILE = HLWorkingScheduleCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HLR.HLWorkingScheduleCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E7633AF2068ED6000C0D113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB8C11A14D8814E7345BA45 /* Pods-HLWorkingScheduleCollectionView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P5FN2G9KC;
+				INFOPLIST_FILE = HLWorkingScheduleCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HLR.HLWorkingScheduleCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E7633B12068ED6000C0D113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P5FN2G9KC;
+				INFOPLIST_FILE = HLWorkingScheduleCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HLR.HLWorkingScheduleCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLWorkingScheduleCollectionView.app/HLWorkingScheduleCollectionView";
+			};
+			name = Debug;
+		};
+		4E7633B22068ED6000C0D113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P5FN2G9KC;
+				INFOPLIST_FILE = HLWorkingScheduleCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HLR.HLWorkingScheduleCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLWorkingScheduleCollectionView.app/HLWorkingScheduleCollectionView";
+			};
+			name = Release;
+		};
+		4E7633B42068ED6000C0D113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P5FN2G9KC;
+				INFOPLIST_FILE = HLWorkingScheduleCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HLR.HLWorkingScheduleCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLWorkingScheduleCollectionView;
+			};
+			name = Debug;
+		};
+		4E7633B52068ED6000C0D113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P5FN2G9KC;
+				INFOPLIST_FILE = HLWorkingScheduleCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HLR.HLWorkingScheduleCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLWorkingScheduleCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E76337C2068ED6000C0D113 /* Build configuration list for PBXProject "HLWorkingScheduleCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7633AB2068ED6000C0D113 /* Debug */,
+				4E7633AC2068ED6000C0D113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7633AD2068ED6000C0D113 /* Build configuration list for PBXNativeTarget "HLWorkingScheduleCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7633AE2068ED6000C0D113 /* Debug */,
+				4E7633AF2068ED6000C0D113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7633B02068ED6000C0D113 /* Build configuration list for PBXNativeTarget "HLWorkingScheduleCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7633B12068ED6000C0D113 /* Debug */,
+				4E7633B22068ED6000C0D113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7633B32068ED6000C0D113 /* Build configuration list for PBXNativeTarget "HLWorkingScheduleCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7633B42068ED6000C0D113 /* Debug */,
+				4E7633B52068ED6000C0D113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E7633792068ED6000C0D113 /* Project object */;
+}
